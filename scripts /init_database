@@ -21,17 +21,17 @@ BEGIN
     DROP DATABASE Data_Warehouse;
 END;
 GO
+-- creating database data_warehouse & using the same to meet project requirement 
+Create database Data_Warehouse; 
 
--- create database Data_Warehouse; 
-
-use Data_Warehouse;
+USE Data_Warehouse;
 
 -- creating schemas
 
-create schema Bronze;
-go
-create schema Silver;
-go
-create schema Gold;
-go
+Create schema Bronze;
+Go
+Create schema Silver;
+Go
+Create schema Gold;
+Go
 
